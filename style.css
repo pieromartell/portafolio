@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #252839;
+}
+
+header{
+  border-color: azure;
+  z-index: 10000000000000000;
+  top: 0;
+}
+
+.icono{
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  color: black;
+}
+
+.titulo{
+  font-family:  sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  display: flex;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+
+ul li a{
+  display: block;
+  text-decoration: none;
+  color: black; 
+  font-size: 20px;
+  padding: 20px;
+
+}
